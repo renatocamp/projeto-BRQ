@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    border: 1px solid grey;
+}
+
+.forms{
+    padding: 5px 5px;
+    display: flex;
+}
+.forms input{
+    float: none;
+    font-size: 15px;
+    width: 400px;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    background-color: rgb(241, 236, 236);
+}
+.forms button{
+    border: none;
+}
+
+.login img{
+    float: right;
+    display: block;
+    padding: 15px;
+}
+
+
+.sub-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    background-color: rgb(241, 236, 236);
+}
+
+.sub-menu a{
+    font-size: .8rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.sub-menu a:hover{
+    font-size: .8rem;
+    color: brown;
+    text-decoration: underline;
+}
+
+.background{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    background-image: url(/imagens/background2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.background h1{
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    margin-left: 150px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-cad{
+    display: flex;
+    padding: 12px 20px;
+    margin: 8px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrado input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.cadastrado input[type=submit] {
+    width: 100%;
+    background-color: #575e57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.cadastrado input[type=submit]:hover {
+    background-color: #646864;
+  }
+
+  .cadastrado label{
+      font-size: 1.2rem;
+  }
+  
+.cadastrado {
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.criar-conta{
+    padding: 12px 20px;
+    margin: 8px auto;
+    justify-content: center;
+    align-items: center;
+}
+.criar-conta a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.criar-conta p{
+    font-size: 1.5rem;
+    color: #373a37;
+}
+
+
+/*CONTAINER SESSÃO CORDAS*/
+
+.container-cordas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.instrumentos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 25px;
+    border: #d4dbd4 1px solid;
+    border-radius: 10px;
+}
+
+.images img, p, span{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.images p{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#preco{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.instrumentos .btn{
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+.instrumentos .btn:hover{
+    background-color: rgb(35, 165, 35);
+    cursor: pointer;
+}
+
+/*INICÍO FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgb(231, 224, 224);
+}
+.footer-conteudo h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.center-col h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer h2{
+    color: black;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer li {
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(93, 92, 95);
+}
+
+.footer .midias i{
+    margin-right: 15px;
+}
+.footer .midias i:hover{
+    color: rgb(12, 12, 12);
+}
+
+.footer .midias a{
+    font-size: 1.1rem;
+}
+
+.footer .midias a:hover{
+    color: rgb(12, 12, 12);
+}
+.links a{
+    font-size: 1.1rem;
+}
+
+.links i{
+    margin-right: 15px;
+}
+.links a:hover{
+    color: rgb(12, 12, 12);
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(114, 111, 111);
+}
+.copy p{
+    color: white;
+    font-size: 1rem;
+    margin-top: 0;
+}
